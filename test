@@ -1,0 +1,5 @@
+#!/bin/bash
+yum install httpd -y
+service httpd start
+echo '<h1> HELLO ALL </h1>' > /var/www/html/index.html
+
