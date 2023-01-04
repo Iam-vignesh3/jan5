@@ -3,3 +3,9 @@ yum install httpd -y
 service httpd start
 echo '<h1> HELLO ALL </h1>' > /var/www/html/index.html
 
+
+#!/bin/bash
+yum install httpd -y
+service httpd start
+mkdir /var/www/html/icici
+echo '<h1> Welcome to ICICI Login page </h1>' > /var/www/html/icici/index.html
